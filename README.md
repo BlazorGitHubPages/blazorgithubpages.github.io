@@ -3,7 +3,7 @@
 [![](../../workflows/gh-pages/badge.svg)](../../actions)
 
 
-This project is an example of using GitHub Actions to automatically deploy a .NET 8 client-side
+This project is an example of using GitHub Actions to automatically deploy a .NET 9 client-side
 Blazor app to GitHub Pages. For a live demo, check the following link:
 
 https://blazorgithubpages.github.io
@@ -13,14 +13,14 @@ of the steps needed for a successful deploy.
 
 
 This project differs from [the project from which it's forked](https://github.com/fernandreu/blazor-pages) in that:
-- It is .NET 8, not .NET Core 3.1
+- It is .NET 9, not .NET Core 3.1
 - Fewer steps from fork to running site (see below)
 
 ## How to deploy
 1. Create a repository based on this template via the "Use this template" button (you don't fork, a fork is for contributing to this template or creating your own template)
 2. Go to your repository Settings > GitHub Pages > set the source branch to `gh-pages-from-actions`
 3. [Set permissions for GitHub Actions](https://stackoverflow.com/questions/73687176/permission-denied-to-github-actionsbot-the-requested-url-returned-error-403)
-4. Enable Dependabot: `Insights` > `Dependency graph` > `Dependabot` > Enable Dependabot
+4. (optional) Enable Dependabot: `Insights` > `Dependency graph` > `Dependabot` > Enable Dependabot
 5. View your site at https://[ `your user name` | `your organization name` ].github.io
 
 ## How it works
